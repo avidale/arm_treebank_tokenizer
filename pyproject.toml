@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "arm_treebank_tokenizer"
+version = "0.0.1"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "Tokenization package for Eastern Armenian UD treebank"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Creative Commons License Attribution-ShareAlike 4.0 International",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+    Homepage = "https://github.com/Armtreebank/Tokenizer"
+    Issues = "https://github.com/Armtreebank/Tokenizer/issues"
+
+[tool.flit.module]
+name = "arm_treebank_tokenizer"
